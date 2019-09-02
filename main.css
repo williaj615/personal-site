@@ -7,7 +7,6 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    align-text: center;
 }
 .card {
     display: flex;
@@ -16,6 +15,7 @@ body {
     border: dotted 1px black;
     margin-bottom: 10px;
     align-items: center;
+    text-align: center;
 }
 .card img {
     width: 200px;

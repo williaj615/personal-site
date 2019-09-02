@@ -50,6 +50,7 @@ const createProjectCards = (projectsArr) => {
         let domString = ''
     for (let i = 0; i < projectsArr.length; i++){
         const project = projectsArr[i];
+        if (project.available === true) {
          domString += `
         <div class="card">
             <h2>${project.title}</h2>
@@ -62,5 +63,5 @@ const createProjectCards = (projectsArr) => {
     }
     printToDom(domString, 'projectsPage')
 }
-
+}
 createProjectCards(projects);

@@ -41,3 +41,26 @@ const projects = [
     url: "https://github.com/williaj615", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
     githubUrl: "https://github.com/williaj615"}
 ]
+
+const printToDom = (toPrint, divId) => {
+    document.getElementById(divId).innerHTML = toPrint
+}
+
+const createProjectCards = (projectsArr) => {
+        let domString = ''
+    for (let i = 0; i < projectsArr.length; i++){
+        const project = projectsArr[i];
+         domString += `
+        <div class="card">
+            <h2>${project.title}</h2>
+            <p><img src=${project.screenshot} alt='Image of ${project.title}'</p>
+            <p>${project.description}</p>
+            <p>${project.technologiesUsed}</p>
+            <p><a href="${project.url}">Project</a></p>
+            <p><a href="${project.githubUrl}">GitHub</a></p>
+        </div>`
+    }
+    printToDom(domString, 'projectsPage')
+}
+
+createProjectCards(projects);

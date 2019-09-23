@@ -66,6 +66,10 @@ const createProjectCards = (projectsArr) => {
 }
 //createProjectCards(projects);
 
+document.getElementById('bioPage').style.display = "";
+document.getElementById('technologiesPage').style.display = "none";
+document.getElementById('projectsPage').style.display = "none";
+
 
 const buttonClick = (e) => {
     e.preventDefault();

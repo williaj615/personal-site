@@ -64,4 +64,29 @@ const createProjectCards = (projectsArr) => {
     printToDom(domString, 'projectsPage')
 }
 }
-createProjectCards(projects);
+//createProjectCards(projects);
+
+
+const buttonClick = (e) => {
+    e.preventDefault();
+    const page = e.target.id
+    if (page === 'navToBio') { 
+    document.getElementById('bioPage').style.display = "";
+    document.getElementById('technologiesPage').style.display = "none";
+    document.getElementById('projectsPage').style.display = "none";
+} else if (page === 'navToTechnologies') { 
+    document.getElementById('bioPage').style.display = "none";
+    document.getElementById('technologiesPage').style.display = "";
+    document.getElementById('projectsPage').style.display = "none";
+} else if (page === 'navToProjects') {
+    document.getElementById('bioPage').style.display = "none";
+    document.getElementById('technologiesPage').style.display = "none";
+    document.getElementById('projectsPage').style.display = "";
+    createProjectCards(projects);
+}
+
+}
+
+document.getElementById('navToBio').addEventListener('click', buttonClick);
+document.getElementById('navToTechnologies').addEventListener('click', buttonClick);
+document.getElementById('navToProjects').addEventListener('click', buttonClick);

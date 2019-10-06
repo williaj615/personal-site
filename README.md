@@ -4,7 +4,7 @@
 Run this application to view my personal developer website. Use the navigation bar to view each section of my site.
 
 ## Screenshots
-![Personal Site Preview](screenshots/main_view.png
+![Personal Site Preview](https://raw.githubusercontent.com/williaj615/personal-site/master/screenshots/main_view.png
 )
 
 ## How to run

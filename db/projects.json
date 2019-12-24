@@ -1,0 +1,38 @@
+{
+  "project1": {
+    "title": "Temperature COnverter",
+    "screenshot":
+      "https://www.elegantthemes.com/blog/wp-content/uploads/2016/06/metricool.jpg",
+    "description":
+      "This is a project using Bootstrap and vanilla JS.",
+    "technologiesUsed":
+      "HTML, CSS, Bootstrap, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "temperature-converter-be6d1.firebaseapp.com",
+    "githubUrl": "https://github.com/williaj615/temp-converter"
+  },
+  "project2": {
+    "title": "Sandwich Maker",
+    "screenshot":
+      "https://www.elegantthemes.com/blog/wp-content/uploads/2016/06/metricool.jpg",
+    "description":
+      "This is a project using HTML, CSS, Bootstrap and vanilla JS, constructed using ES6 modules.",
+    "technologiesUsed":
+      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "sandwich-maker-93a13.firebaseapp.com",
+    "githubUrl": "https://github.com/williaj615/sandwich-maker"
+  },
+  "project3": {
+    "title": "Tamagotchi",
+    "screenshot":
+      "https://www.elegantthemes.com/blog/wp-content/uploads/2016/06/metricool.jpg",
+    "description":
+      "This is a project using SCSS, bootstrap and JS to showcase mastery, constructed using JQuery, ES6 modules and SCSS variables and nesting.",
+    "technologiesUsed":
+      "SCSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "tamagotchi-c9499.firebaseapp.com",
+    "githubUrl": "https://github.com/williaj615/tamagotchi"
+  }
+}

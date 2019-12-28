@@ -1,5 +1,6 @@
-import '../styles/main.scss';
+
 import 'bootstrap';
+import '../styles/main.scss';
 import utilities from './helpers/utilities';
 import projectsData from './helpers/data/projectsData';
 

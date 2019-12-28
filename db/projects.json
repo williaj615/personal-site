@@ -1,8 +1,8 @@
 {
   "project1": {
-    "title": "Temperature COnverter",
+    "title": "Temperature Converter",
     "screenshot":
-      "https://www.elegantthemes.com/blog/wp-content/uploads/2016/06/metricool.jpg",
+      "https://raw.githubusercontent.com/williaj615/temp-converter/master/screenshots/conversion_view.png",
     "description":
       "This is a project using Bootstrap and vanilla JS.",
     "technologiesUsed":
@@ -14,7 +14,7 @@
   "project2": {
     "title": "Sandwich Maker",
     "screenshot":
-      "https://www.elegantthemes.com/blog/wp-content/uploads/2016/06/metricool.jpg",
+      "https://raw.githubusercontent.com/williaj615/sandwich-maker/master/screenshots/orderTotal_view.png",
     "description":
       "This is a project using HTML, CSS, Bootstrap and vanilla JS, constructed using ES6 modules.",
     "technologiesUsed":
@@ -26,7 +26,7 @@
   "project3": {
     "title": "Tamagotchi",
     "screenshot":
-      "https://www.elegantthemes.com/blog/wp-content/uploads/2016/06/metricool.jpg",
+      "https://raw.githubusercontent.com/williaj615/tamagotchi/master/src/project-photos/main-view.png",
     "description":
       "This is a project using SCSS, bootstrap and JS to showcase mastery, constructed using JQuery, ES6 modules and SCSS variables and nesting.",
     "technologiesUsed":

@@ -8,7 +8,7 @@
     "technologiesUsed":
       "HTML, CSS, Bootstrap, Vanilla JavaScript, Version Control with Github",
     "available": true,
-    "url": "temperature-converter-be6d1.firebaseapp.com",
+    "url": "https://temperature-converter-be6d1.firebaseapp.com/",
     "githubUrl": "https://github.com/williaj615/temp-converter"
   },
   "project2": {
@@ -20,7 +20,7 @@
     "technologiesUsed":
       "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
-    "url": "sandwich-maker-93a13.firebaseapp.com",
+    "url": "https://sandwich-maker-93a13.firebaseapp.com/",
     "githubUrl": "https://github.com/williaj615/sandwich-maker"
   },
   "project3": {
@@ -32,7 +32,7 @@
     "technologiesUsed":
       "SCSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
-    "url": "tamagotchi-c9499.firebaseapp.com",
+    "url": "https://tamagotchi-c9499.firebaseapp.com/",
     "githubUrl": "https://github.com/williaj615/tamagotchi"
   }
 }

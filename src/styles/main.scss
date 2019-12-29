@@ -39,6 +39,7 @@ body {
 }
 .header-text h1 {
     margin-bottom: 0.1em;
+    margin-top: 0.4em;
     font-size: 5em;
     font-family: 'Libre Baskerville', serif;
     letter-spacing: 2px;
@@ -80,6 +81,7 @@ body {
 }
 .bio-container {
     height: 75vh;
+
 }
 #about {
     height: fit-content;
@@ -87,9 +89,6 @@ body {
 #about .section-heading {
     font-size: 3em;
     font-family: 'Libre Baskerville', serif;
-    font-style: italic;
-
-    margin-top: 1em;
 }
 #about .border-line {
     position: relative;
@@ -100,24 +99,27 @@ body {
    
 }
 #about .bio-par {
-    font-size: 1.2em;
+    font-size: 0.9rem;
     font-weight: 300;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0.2rem;
     font-family: 'Open Sans', sans-serif;
-    margin-left: 1em;
+    margin-left: 4em;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    
 }
 .proile-pic {
     border-radius: 85px;
     width: 85%;
+    margin-top: 5em;
 }
 
 #projects .section-heading {
     font-size: 3em;
     font-family: 'Libre Baskerville', serif;
-    font-style: italic;
-
-    margin-top: 1em;
+    padding-top: 5em;
 }
 #projects .border-line {
     position: relative;
@@ -127,22 +129,78 @@ body {
     margin: 0 auto;
    
 }
-.card {
+#projects .card {
     display: flex;
+    color: white;
     flex-direction: column;
     width: 300px;
     border: dotted 1px black;
     margin-bottom: 10px;
     align-items: center;
     text-align: center;
+    background-color: #800020;
+    font-weight: lighter;
 }
-.card img {
+#projects .card img {
     width: 200px;
 }
 
-.card p {
+#projects .card p {
     align-self: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: 'Oswald', sans-serif;
+
 }
 h2 {
     font-family: 'Oswald', sans-serif;
+}
+#technologies .section-heading {
+    font-size: 3em;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 3em;
+    margin-top: 1em;
+}
+#technologies .border-line {
+    position: relative;
+    width: 50%;
+    height: 4px;
+    background-color: #800020;
+    margin: 0 auto;
+   
+}
+#technologies .card {
+    font-size: 6em;
+    padding: 15px;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+}
+i {
+    color: 212529;
+    
+}
+#contact {
+    padding-bottom: 8em;
+}
+#contact .section-heading {
+    font-size: 3em;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 3em;
+    margin-top: 1em;
+}
+#contact .border-line {
+    position: relative;
+    width: 50%;
+    height: 4px;
+    background-color: #800020;
+    margin: 0 auto;
+   
+}
+#contact .card {
+    font-size: 6em;
+    padding: 15px;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
 }

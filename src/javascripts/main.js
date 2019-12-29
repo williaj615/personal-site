@@ -1,4 +1,4 @@
-import projects from './projects';
+import projects from './components/projects/projects';
 import '../styles/main.scss';
 
 const init = () => {

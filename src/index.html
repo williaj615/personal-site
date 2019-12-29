@@ -10,26 +10,30 @@
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Oswald&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Oswald:300,400|Raleway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-  <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
   <!-- Page Header -->
   <div class="header-container">
-    <div id="mynavbar">
+    <div id="mynavbar" class="fixed-top">
       <nav>
           <ul class="nav justify-content-end">
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Technologies</a>
+                <a class="nav-link" href="#technologies">Technologies</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
               </li>
             </ul>
       </nav>
@@ -41,23 +45,26 @@
           <div class="border-line"></div>
           <h2>Software Developer | Nashville, TN</h2>
         </div>
-        <div class="arrow">
-          <p>
-            More about me!
-          </p>
-          <i class="fas fa-chevron-down"></i>
-        </div>
     </div>
   </div>
   <!--End Page Header-->
   <!--Bio Section-->
   <div id="about" class="row">
       <div class="bio-container d-flex text-center col-6 container">
+          <div class="arrow">
+              <i class="fa fa-chevron-down m-auto"></i>
+          </div>
         <div class="bio-wrapper">
           <h1 class="section-heading">Hello there!</h1>
           <div class="border-line"></div>
-          <p class="bio-par">I'm Jasmine, a junior software developer. Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</p>
-        </div>
+          <div class="paragraph-container d-flex flex-column justify-content-center text-left">
+            <div class="bio-par"> I'm Jasmine, a junior software developer. I'm a lover of languages, learning, traveling, cats AND dogs. However, what I love most is creating beautiful, useful and meaningful things. After graduating with a degree in Philosophy from Vanderbilt in 2017, I was pretty sure I wanted to write language policy Niche, right? (Useful? Check. Meaningful? Check. Beautiful? Eh.) I worked in interpretation for state agencies and a healthcare nonprofit where I was able to put my own Spanish language skills to use, pushing hard towards public service. But I realized that I wasn’t fulfilling two of my major passions: creating & learning new things, which led me to search for something more. After experimenting with Codecademy and Treehouse courses I realized two very important things. </div>
+            <div class="bio-par">1. Coding is crazy similar to formal logic, a philosophy course I aced in college.</div>
+            <div class="bio-par">2. You can do almost anything with code. (READ: You can change the world with code.</div>
+            <div class="bio-par">3. I was meant to be a software developer. </div>
+            <div class="bio-par">After attending an NSS info session, I knew that the skills I’d learn here would leave me with the opportunity and ability to do what I wanted most. I would create beautiful, useful and meaningful things and I would always be learning. As a bonus, I would make countless precious connections with people along the way. </div>
+          </div>
+          </div>
       </div>
       <div class="bio-photo-container col-6">
         <div class="img-container">
@@ -69,11 +76,11 @@
   <!-- End Bio Section -->
 
   <!--Projects Section-->
-  <div id="projects">
-      <div class="projects-wrapper">
+  <div id="projects" class="mb-5">
+      <div class="projects-wrapper text-center">
           <h1 class="section-heading">My Work</h1>
           <div class="border-line"></div>
-          <div id="projectsPage">
+          <div id="projectsPage" class="d-flex flex-row mt-5 justify-content-around">
 
           </div>
         </div>
@@ -81,18 +88,61 @@
   <!--End Projects Section-->
 
   <!--Technologies Section-->
+  <div id="technologies">
+    <div class="technologies-wrapper text-center">
+        <h1 class="section-heading">Technologies</h1>
+        <div class="border-line"></div>
+        <div id="technologiesPage" class="d-flex flex-row mt-5 justify-content-around">
+          <div class="icon-card card">
+              <i class="devicon-html5-plain-wordmark plain"></i>
+          </div>
+          <div class="icon-card card">
+              <i class="devicon-javascript-plain"></i>
+          </div>
+          <div class="icon-card card">
+              <i class="devicon-css3-plain"></i>
+          </div>
+          <div class="icon-card card">
+              <i class="devicon-sass-original"></i>
+          </div>
+          <div class="icon-card card">
+              <i class="devicon-react-original"></i>
+          </div>
+          <div class="icon-card card">
+              <i class="devicon-jquery-plain-wordmark"></i>
+          </div>
+          <div class="icon-card card">
+              <i class="devicon-git-plain-wordmark"></i>
+          </div>
+          <div class="icon-card card">
+              <i class="devicon-github-plain-wordmark"></i>
+          </div>
+        </div>
+      </div>
+  </div>
   <!--End Technologies Section-->
 
   <!--Contact Section-->
+  <div id="contact">
+    <div class="contact-wrapper text-center">
+        <h1 class="section-heading">Get in touch with me!</h1>
+        <div class="border-line"></div>
+        <div id="contactPage" class="d-flex flex-row mt-5 justify-content-center">
+          <div class="contact-icon-card card">
+              <a href="mailto: jasminewilliams2017@gmail.com"><i class="fa fa-envelope-o"></i></a>
+          </div>
+          <div class="contact-icon-card card">
+              <a href="https://github.com/williaj615"><i class="fa fa-github"></i></a>
+          </div>
+          <div class="contact-icon-card card">
+              <a href="http://linkedin.com/in/jasmine-williams-9506a572"><i class="fa fa-linkedin-square"></i></a>
+          </div>
+        </div>
+      </div>
+  </div>
   <!--End Contact Section-->
 
   <!-- Footer -->
-  <footer class="page-footer">
-    <h3>Contact Me</h3>
-    <a href="mailto: jasminewilliams2017@gmail.com">Email</a>
-    <a href="http://linkedin.com/in/jasmine-williams-9506a572">LinkedIn</a>
-    <a href="https://github.com/williaj615"> GitHub</a>
-  </footer>
   <!-- End Footer -->
 </body>
 </html>

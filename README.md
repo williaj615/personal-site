@@ -5,9 +5,9 @@ Run this application to view my personal developer website. Use the navigation b
 
 ## Screenshots
 ![Personal Site Main View](screenshots/mainview.png)
-![Bio View](screenshots/bio.png)
-![Portfolio View](screenshots/projects.png)
-![Technologies and Contact View](screenshots/tech-contact.png)
+![Bio View](https://raw.githubusercontent.com/williaj615/personal-site/master/screenshots/bio.png)
+![Portfolio View](https://raw.githubusercontent.com/williaj615/personal-site/master/screenshots/projects.png)
+![Technologies and Contact View](https://raw.githubusercontent.com/williaj615/personal-site/master/screenshots/tech-contact.png)
 
 
 ## How to run

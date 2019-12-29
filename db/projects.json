@@ -1,0 +1,38 @@
+{
+  "project1": {
+    "title": "Temperature Converter",
+    "screenshot":
+      "https://raw.githubusercontent.com/williaj615/temp-converter/master/screenshots/conversion_view.png",
+    "description":
+      "This is a project using Bootstrap and vanilla JS.",
+    "technologiesUsed":
+      "HTML, CSS, Bootstrap, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://temperature-converter-be6d1.firebaseapp.com/",
+    "githubUrl": "https://github.com/williaj615/temp-converter"
+  },
+  "project2": {
+    "title": "Sandwich Maker",
+    "screenshot":
+      "https://raw.githubusercontent.com/williaj615/sandwich-maker/master/screenshots/orderTotal_view.png",
+    "description":
+      "This is a project using HTML, CSS, Bootstrap and vanilla JS, constructed using ES6 modules.",
+    "technologiesUsed":
+      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://sandwich-maker-93a13.firebaseapp.com/",
+    "githubUrl": "https://github.com/williaj615/sandwich-maker"
+  },
+  "project3": {
+    "title": "Tamagotchi",
+    "screenshot":
+      "https://raw.githubusercontent.com/williaj615/tamagotchi/master/src/project-photos/main-view.png",
+    "description":
+      "This is a project using SCSS, bootstrap and JS to showcase mastery, constructed using JQuery, ES6 modules and SCSS variables and nesting.",
+    "technologiesUsed":
+      "SCSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://tamagotchi-c9499.firebaseapp.com/",
+    "githubUrl": "https://github.com/williaj615/tamagotchi"
+  }
+}

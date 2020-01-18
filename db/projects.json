@@ -34,5 +34,17 @@
     "available": true,
     "url": "https://tamagotchi-c9499.firebaseapp.com/",
     "githubUrl": "https://github.com/williaj615/tamagotchi"
-  }
+  },  
+  "project4": {
+    "title": "Ultimate Frisbee Roster",
+    "screenshot":
+      "https://raw.githubusercontent.com/williaj615/sports-roster/master/screenshots/main_view.png",
+    "description":
+      "This is a project using SCSS, bootstrap and JS to showcase mastery in full CRUD, constructed using React and React components.",
+    "technologiesUsed":
+      "Bootstrap, JS/React, Version Control with Github",
+    "available": true,
+    "url": "https://sports-roster-27115.firebaseapp.com/",
+    "githubUrl": "https://github.com/williaj615/sports-roster"
+  }, 
 }

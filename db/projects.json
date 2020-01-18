@@ -1,50 +1,50 @@
 {
   "project1": {
-    "title": "Temperature Converter",
-    "screenshot":
-      "https://raw.githubusercontent.com/williaj615/temp-converter/master/screenshots/conversion_view.png",
-    "description":
-      "This is a project using Bootstrap and vanilla JS.",
-    "technologiesUsed":
-      "HTML, CSS, Bootstrap, Vanilla JavaScript, Version Control with Github",
-    "available": true,
-    "url": "https://temperature-converter-be6d1.firebaseapp.com/",
-    "githubUrl": "https://github.com/williaj615/temp-converter"
-  },
-  "project2": {
     "title": "Sandwich Maker",
     "screenshot":
       "https://raw.githubusercontent.com/williaj615/sandwich-maker/master/screenshots/orderTotal_view.png",
     "description":
-      "This is a project using HTML, CSS, Bootstrap and vanilla JS, constructed using ES6 modules.",
+      "This is a project using HTML, CSS, Bootstrap and JS, constructed using ES6 modules.",
     "technologiesUsed":
-      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "HTML, CSS, JavaScript, Version Control with Github",
     "available": true,
     "url": "https://sandwich-maker-93a13.firebaseapp.com/",
     "githubUrl": "https://github.com/williaj615/sandwich-maker"
   },
-  "project3": {
+  "project2": {
     "title": "Tamagotchi",
     "screenshot":
       "https://raw.githubusercontent.com/williaj615/tamagotchi/master/src/project-photos/main-view.png",
     "description":
-      "This is a project using SCSS, bootstrap and JS to showcase mastery, constructed using JQuery, ES6 modules and SCSS variables and nesting.",
+      "This is a project using SCSS, bootstrap and JS to showcase mastery of ES6 modules, constructed using JQuery, ES6 modules and SCSS variables and nesting.",
     "technologiesUsed":
-      "SCSS, Vanilla JavaScript, Version Control with Github",
+      "SCSS, JavaScript, JQuery, Version Control with Github",
     "available": true,
     "url": "https://tamagotchi-c9499.firebaseapp.com/",
     "githubUrl": "https://github.com/williaj615/tamagotchi"
   },  
+  "project3": {
+    "title": "Shark Attack",
+    "screenshot":
+      "https://raw.githubusercontent.com/williaj615/shark-attack/master/screenshots/main_view.png",
+    "description":
+      "This is a project using bootstrap, JS and React to showcase mastery in React components, constructed using using React and React components.",
+    "technologiesUsed":
+      "SCSS, Bootstrap, JS, React, Version Control with Github",
+    "available": true,
+    "url": "https://shark-attack-422da.firebaseapp.com/",
+    "githubUrl": "https://github.com/williaj615/shark-attack"
+  }, 
   "project4": {
     "title": "Ultimate Frisbee Roster",
     "screenshot":
       "https://raw.githubusercontent.com/williaj615/sports-roster/master/screenshots/main_view.png",
     "description":
-      "This is a project using SCSS, bootstrap and JS to showcase mastery in full CRUD, constructed using React and React components.",
+      "This is a project using SCSS, bootstrap and JS to showcase mastery in React full CRUD, constructed using React and React components.",
     "technologiesUsed":
       "Bootstrap, JS/React, Version Control with Github",
     "available": true,
     "url": "https://sports-roster-27115.firebaseapp.com/",
     "githubUrl": "https://github.com/williaj615/sports-roster"
-  }, 
+  }
 }

@@ -7,9 +7,10 @@
       "This is a project using HTML, CSS, Bootstrap and JS, constructed using ES6 modules.",
     "technologiesUsed":
       "HTML, CSS, JavaScript, Version Control with Github",
-    "available": true,
+    "available": false,
     "url": "https://sandwich-maker-93a13.firebaseapp.com/",
-    "githubUrl": "https://github.com/williaj615/sandwich-maker"
+    "githubUrl": "https://github.com/williaj615/sandwich-maker",
+    "capstone": false
   },
   "project2": {
     "title": "Tamagotchi",
@@ -21,7 +22,8 @@
       "SCSS, JavaScript, JQuery, Version Control with Github",
     "available": true,
     "url": "https://tamagotchi-c9499.firebaseapp.com/",
-    "githubUrl": "https://github.com/williaj615/tamagotchi"
+    "githubUrl": "https://github.com/williaj615/tamagotchi",
+    "capstone": false
   },  
   "project3": {
     "title": "Shark Attack",
@@ -33,7 +35,8 @@
       "SCSS, Bootstrap, JS, React, Version Control with Github",
     "available": true,
     "url": "https://shark-attack-422da.firebaseapp.com/",
-    "githubUrl": "https://github.com/williaj615/shark-attack"
+    "githubUrl": "https://github.com/williaj615/shark-attack",
+    "capstone": false
   }, 
   "project4": {
     "title": "Ultimate Frisbee Roster",
@@ -45,6 +48,20 @@
       "Bootstrap, JS/React, Version Control with Github",
     "available": true,
     "url": "https://sports-roster-27115.firebaseapp.com/",
-    "githubUrl": "https://github.com/williaj615/sports-roster"
+    "githubUrl": "https://github.com/williaj615/sports-roster",
+    "capstone": false
+  },
+  "project5": {
+    "title": "Traveling Disc",
+    "screenshot":
+      "screenshots/traveling-disc.png",
+    "description":
+      "This is a project using SCSS, bootstrap and JS to showcase mastery in React full CRUD, constructed using React and React components.",
+    "technologiesUsed":
+      "Bootstrap, JS/React, Version Control with Github",
+    "available": true,
+    "url": "https://traveling-disc.web.app/",
+    "githubUrl": "https://github.com/williaj615/traveling-disc",
+    "capstone": true
   }
 }

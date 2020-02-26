@@ -9,15 +9,17 @@ const buildProjectCards = () => {
   projectsData.getAllProjects()
     .then((projects) => {
       projects.forEach((project) => {
-        domString += `
-          <div class='card'>
-              <h2>${project.title}</h2>
-              <p><img src=${project.screenshot} alt='Image of ${project.title}'</p>
-              <p>${project.description}</p>
-              <p>${project.technologiesUsed}</p>
-              <p><a href='${project.url}'>Project</a></p>
-              <p><a href='${project.githubUrl}'>GitHub</a></p>
-          </div>`;
+        if (project.available === true) {
+          domString += `
+            <div class='card'>
+                <h2>${project.title}</h2>
+                <p><img src=${project.screenshot} alt='Image of ${project.title}'</p>
+                <p>${project.description}</p>
+                <p>${project.technologiesUsed}</p>
+                <p><a href='${project.url}'>Project</a></p>
+                <p><a href='${project.githubUrl}'>GitHub</a></p>
+            </div>`;
+        }
       });
       utilities.printToDom(domString, 'projectsPage');
     });

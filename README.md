@@ -1,5 +1,5 @@
 # Personal Site
-![jasminewilliams.dev](jasminewilliams.dev)
+![My site](jasminewilliams.dev)
 
 ## Description
 

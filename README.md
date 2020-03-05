@@ -8,15 +8,16 @@ Run this application to view my personal developer website. Use the navigation b
 
 ## Screenshots
 
-![Personal Site Main View](screenshots/ps-mainview.png)
-![Bio View](screenshots/ps-bioview.png)
-![Portfolio View](screenshots/ps-projectsview.png)
-![Technologies View](screenshots/ps-techview.png)
-![Contact View](screenshots/ps-contactview.png)
+![Personal Site Main View](https://github.com/williaj615/personal-site/raw/master/screenshots/ps-mainview.png)
+![Bio View](https://raw.githubusercontent.com/williaj615/personal-site/master/screenshots/ps-bioview.png)
+![Portfolio View](https://github.com/williaj615/personal-site/raw/master/screenshots/ps-projectsview.png)
+![Technologies View](https://raw.githubusercontent.com/williaj615/personal-site/master/screenshots/ps-techview.png)
+![Contact View](https://raw.githubusercontent.com/williaj615/personal-site/master/screenshots/ps-contactview.png)
 
 ## How to run
 
-- Clone down this project.
-- Install [http-server](https://www.npmjs.com/package/http-server) from npm.
-- At the root of this project, run the following command: `hs -p 8080`
-- In your browser, navigate to `https://localhost:8080`
+- Clone down the project
+- In the terminal run `npm install`
+- Create a firebase project [here](https://console.firebase.google.com/)
+- Create `src/helpers/apiKeys.json` file and add in your firebase keys that were created in the new firebase project. Feel free to reference the `apiKeys.example.json` file in the project for the correct structure.
+- Once set up to run enter the following in the terminal `npm start`

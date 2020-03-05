@@ -1,6 +1,5 @@
 # Personal Site
-
-https://personal-site-24536.firebaseapp.com/
+jasminewilliams.dev
 
 ## Description
 

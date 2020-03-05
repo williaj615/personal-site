@@ -1,12 +1,9 @@
 {
   "project1": {
     "title": "Sandwich Maker",
-    "screenshot":
-      "https://raw.githubusercontent.com/williaj615/sandwich-maker/master/screenshots/orderTotal_view.png",
-    "description":
-      "This is a project using HTML, CSS, Bootstrap and JS, constructed using ES6 modules.",
-    "technologiesUsed":
-      "HTML, CSS, JavaScript, Version Control with Github",
+    "screenshot": "https://raw.githubusercontent.com/williaj615/sandwich-maker/master/screenshots/orderTotal_view.png",
+    "description": "This is a project using HTML, CSS, Bootstrap and JS, constructed using ES6 modules.",
+    "technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
     "available": false,
     "url": "https://sandwich-maker-93a13.firebaseapp.com/",
     "githubUrl": "https://github.com/williaj615/sandwich-maker",
@@ -14,38 +11,29 @@
   },
   "project2": {
     "title": "Tamagotchi",
-    "screenshot":
-      "https://raw.githubusercontent.com/williaj615/tamagotchi/master/src/project-photos/main-view.png",
-    "description":
-      "This is a project using SCSS, bootstrap and JS to showcase mastery of ES6 modules, constructed using JQuery, ES6 modules and SCSS variables and nesting.",
-    "technologiesUsed":
-      "SCSS, JavaScript, JQuery, Version Control with Github",
+    "screenshot": "https://raw.githubusercontent.com/williaj615/tamagotchi/master/src/project-photos/main-view.png",
+    "description": "This is a project using SCSS, bootstrap and JS to showcase mastery of ES6 modules, constructed using JQuery, ES6 modules and SCSS variables and nesting.",
+    "technologiesUsed": "SCSS, JavaScript, JQuery, Version Control with Github",
     "available": true,
     "url": "https://tamagotchi-c9499.firebaseapp.com/",
     "githubUrl": "https://github.com/williaj615/tamagotchi",
     "capstone": false
-  },  
+  },
   "project3": {
     "title": "Shark Attack",
-    "screenshot":
-      "https://raw.githubusercontent.com/williaj615/shark-attack/master/screenshots/main_view.png",
-    "description":
-      "This is a project using bootstrap, JS and React to showcase mastery in React components, constructed using using React and React components.",
-    "technologiesUsed":
-      "SCSS, Bootstrap, JS, React, Version Control with Github",
+    "screenshot": "https://raw.githubusercontent.com/williaj615/shark-attack/master/screenshots/main_view.png",
+    "description": "This is a project using bootstrap, JS and React to showcase mastery in React components, constructed using using React and React components.",
+    "technologiesUsed": "SCSS, Bootstrap, JS, React, Version Control with Github",
     "available": true,
     "url": "https://shark-attack-422da.firebaseapp.com/",
     "githubUrl": "https://github.com/williaj615/shark-attack",
     "capstone": false
-  }, 
+  },
   "project4": {
     "title": "Ultimate Frisbee Roster",
-    "screenshot":
-      "https://raw.githubusercontent.com/williaj615/sports-roster/master/screenshots/main_view.png",
-    "description":
-      "This is a project using SCSS, bootstrap and JS to showcase mastery in React full CRUD, constructed using React and React components.",
-    "technologiesUsed":
-      "Bootstrap, JS/React, Version Control with Github",
+    "screenshot": "https://raw.githubusercontent.com/williaj615/sports-roster/master/screenshots/main_view.png",
+    "description": "This is a project using SCSS, bootstrap and JS to showcase mastery in React full CRUD, constructed using React and React components.",
+    "technologiesUsed": "Bootstrap, JS/React, Version Control with Github",
     "available": true,
     "url": "https://sports-roster-27115.firebaseapp.com/",
     "githubUrl": "https://github.com/williaj615/sports-roster",
@@ -53,12 +41,9 @@
   },
   "project5": {
     "title": "Traveling Disc",
-    "screenshot":
-      "screenshots/traveling-disc.png",
-    "description":
-      "This is a project using SCSS, bootstrap and JS to showcase mastery in React full CRUD, constructed using React and React components.",
-    "technologiesUsed":
-      "Bootstrap, JS/React, Version Control with Github",
+    "screenshot": "https://raw.githubusercontent.com/williaj615/traveling-disc/master/screenshots/mainview.png",
+    "description": "This is a project using SCSS, bootstrap and JS to showcase mastery in React full CRUD, constructed using React and React components.",
+    "technologiesUsed": "Bootstrap, JS/React, Version Control with Github",
     "available": true,
     "url": "https://traveling-disc.web.app/",
     "githubUrl": "https://github.com/williaj615/traveling-disc",
